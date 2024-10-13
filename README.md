@@ -20,18 +20,38 @@
   <!-- ################################################# -->
 
 ```
-  geojson { "type": "FeatureCollection", "features": [ { "type": "Feature",
-  "id": 1, "properties": { "ID": 0, "Name": "NSA Headquarters" }, "geometry":
-  { "type": "Polygon", "coordinates": [ [ [-76.77255, 39.10559], [-76.77255,
-  39.11029], [-76.76675, 39.11029], [-76.76675, 39.10559], [-76.77255,
-  39.10559] ] ] } } ] }
+geojson { "type": "FeatureCollection", "features": [ { "type": "Feature","id": 1, "properties": { "ID": 0, "Name": "NSA Headquarters" }, "geometry": { "type": "Polygon", "coordinates": [ [ [-76.77255, 39.10559], [-76.77255, 39.11029], [-76.76675, 39.11029], [-76.76675, 39.10559], [-76.77255, 39.10559] ] ] } } ] }
  ```
   
   <hr>
   <!-- ################################################# -->
 
-  👷🛠️UNDER CONSTRUCTION🚧🏗<br>
+  👷🛠️UNDER CONSTRUCTION🚧🏗
+  <br>
+
+  <details>
+  <summary>INTEL</summary>
+  <br>
+
+  <h4>Intel References</h4>
   
+  <ul>
+  <li><a href="https://theintercept.com">The Intercept</a></li>
+  <li><a href="https://wikileaks.org">WikiLeaks</a></li>
+  <li><a href="https://publicintelligence.net">Public Intelligence</a></li>
+  <li><a href="https://ddosecrets.com/wiki/Distributed_Denial_of_Secrets">DDoSecrets</a></li>
+  <li><a href="https://cryptome.org">Cryptome</a></li>
+  <li><a href="https://unredacted.com" target="_blank" rel="noopener noreferrer">Unredacted</a></li>
+  <li><a href="https://cognitive-liberty.online" target="_blank" rel="noopener noreferrer">Cognitive Liberty</a></li>
+  <li><a href="https://paybackpolitics.weebly.com" target="_blank" rel="noopener noreferrer">Payback Politics</a></li>
+  </ul>
+
+  </details>
+
+  <!-- ################################################# -->
+
+  👷🛠️UNDER CONSTRUCTION🚧🏗<br>
+
   <details>
   <summary>OSINT</summary>
 
@@ -280,9 +300,6 @@
 
   <!-- ################################################# -->
 
-  👷🛠️UNDER CONSTRUCTION🚧🏗
-  <br>
-
   <details>
   <summary>HUMINT</summary>
   <br>
@@ -507,19 +524,6 @@
   rel="noopener noreferrer">The OSINTion</a></li>
   <li><a href="https://www.youtube.com/TheOSINTCuriousProject" target="_blank"
   rel="noopener noreferrer">The OSINT Curious Project</a></li>
-  </ul>
-  
-  <h4>Intel References</h4>
-  
-  <ul>
-  <li><a href="https://theintercept.com">The Intercept</a></li>
-  <li><a href="https://wikileaks.org">WikiLeaks</a></li>
-  <li><a href="https://publicintelligence.net">Public Intelligence</a></li>
-  <li><a href="https://ddosecrets.com/wiki/Distributed_Denial_of_Secrets">DDoSecrets</a></li>
-  <li><a href="https://cryptome.org">Cryptome</a></li>
-  <li><a href="https://unredacted.com" target="_blank" rel="noopener noreferrer">Unredacted</a></li>
-  <li><a href="https://cognitive-liberty.online" target="_blank" rel="noopener noreferrer">Cognitive Liberty</a></li>
-  <li><a href="https://paybackpolitics.weebly.com" target="_blank" rel="noopener noreferrer">Payback Politics</a></li>
   </ul>
   
   </details>
