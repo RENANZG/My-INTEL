@@ -59,6 +59,7 @@ geojson { "type": "FeatureCollection", "features": [ { "type": "Feature","id": 1
     <li><strong><a href="https://github.com/jivoi/awesome-osint" target="_blank" rel="noopener noreferrer">Awesome OSINT</a></strong></li>
     <li><strong><a href="https://github.com/sherlock-project/sherlock" target="_blank" rel="noopener noreferrer">Sherlock Project</a></strong></li>
     <li><a href="https://breachdirectory.org" target="_blank" rel="noopener noreferrer">Breach Directory</a></li>
+    <li><a href="https://www.hudsonrock.com/threat-intelligence-cybercrime-tools" target="_blank" rel="noopener noreferrer">Hudson Rock - Free Cybercrime Intelligence Toolset</a></li>
     <li><a href="https://md5decrypt.net/en/Sha1" target="_blank" rel="noopener noreferrer">MD5 Decrypt</a></li>
     <li><a href="https://namechk.com" target="_blank" rel="noopener noreferrer">Name OSINT</a></li>
     <li><a href="https://iplogger.org" target="_blank" rel="noopener noreferrer">IP Logger</a></li>
