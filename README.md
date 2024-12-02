@@ -1,11 +1,43 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+<!--
+ <head>
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>INTEL</title>
+<style>
+  /* CSS Crime Scene Style*/
+  * {
+    box-sizing: border-box;
+    margin: 2;
+    padding: 2;
+  }
+  body {
+    font-family: Arial, sans-serif;
+    background-color: rgb(22, 22, 24); /* Dark gray background */
+    color: #fff; /* White text color */
+    margin: 40px; /* Margin for better readability */
+  }
+  /* Titles */
+  h1, h2, h3, h4, h5, h6 {
+    color: #fff; /* White text color */
+  }
+  /* Elements with yellow details */
+  hr, blockquote, table, thead, tbody, tfoot, tr, td, th {
+    border-color: rgb(226, 181, 25); /* Yellowish color for borders */
+  }
+  /* Links within content */
+  a {
+    color: rgb(226, 26, 65); /* Reddish color for links */
+    text-decoration: none; /* Remove underline by default */
+  }
+  a:hover {
+    text-decoration: underline; /* Underline on hover */
+  }
+</style>
 </head>
+-->
 <body>
-
-  <div id="header">
 
   <h1>🔍🕵🧐 INTEL 🧐🕵🔎</h1>
 
@@ -14,14 +46,36 @@
 
   <p align="center"><img src=".data/the_eye_1945_-_salvador_dali.jpg" title="The Eye (1945) - Salvador Dali" width="600" height="340" /></p>
 
-  </div>
-
   <hr>
   <!-- ################################################# -->
 
+```geojson
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "id": 1,
+      "properties": {
+        "ID": 0,
+        "Name": "NSA Headquarters"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [-76.77255, 39.10559],
+            [-76.77255, 39.11029],
+            [-76.76675, 39.11029],
+            [-76.76675, 39.10559],
+            [-76.77255, 39.10559]
+          ]
+        ]
+      }
+    }
+  ]
+}
 ```
-geojson { "type": "FeatureCollection", "features": [ { "type": "Feature","id": 1, "properties": { "ID": 0, "Name": "NSA Headquarters" }, "geometry": { "type": "Polygon", "coordinates": [ [ [-76.77255, 39.10559], [-76.77255, 39.11029], [-76.76675, 39.11029], [-76.76675, 39.10559], [-76.77255, 39.10559] ] ] } } ] }
- ```
   
   <hr>
   <!-- ################################################# -->
@@ -33,17 +87,20 @@ geojson { "type": "FeatureCollection", "features": [ { "type": "Feature","id": 1
   <summary>INTEL</summary>
   <br>
 
+  </p>The Crooked Cycle is a relentless pursuit of gathering “information” and morphing it into “intelligence” for those who thrive on the edges of legality. The steps in this well-oiled machine are: Direction (choosing the path with the least resistance from the law), Collection (scooping up dirt like a pro), Processing (massaging the facts until they squeal), Exploitation (turning secrets into profit, because ethics are for losers), and Dissemination (spreading the “truth” like a rumor in a backroom deal).</p>
+
   <h4>Intel References</h4>
   
   <ul>
   <li><a href="https://theintercept.com">The Intercept</a></li>
   <li><a href="https://wikileaks.org">WikiLeaks</a></li>
+  <li><a href="https://cryptome.org">Cryptome</a></li>
   <li><a href="https://publicintelligence.net">Public Intelligence</a></li>
   <li><a href="https://ddosecrets.com/wiki/Distributed_Denial_of_Secrets">DDoSecrets</a></li>
-  <li><a href="https://cryptome.org">Cryptome</a></li>
   <li><a href="https://unredacted.com" target="_blank" rel="noopener noreferrer">Unredacted</a></li>
   <li><a href="https://cognitive-liberty.online" target="_blank" rel="noopener noreferrer">Cognitive Liberty</a></li>
   <li><a href="https://paybackpolitics.weebly.com" target="_blank" rel="noopener noreferrer">Payback Politics</a></li>
+  <li><a href="https://www.theblackvault.com" target="_blank" rel="noopener noreferrer">The Black Vault</a></li>
   </ul>
 
   </details>
@@ -56,6 +113,8 @@ geojson { "type": "FeatureCollection", "features": [ { "type": "Feature","id": 1
   <summary>OSINT</summary>
 
   <h4>OSINT Resources</h4>
+
+  <ul>
     <li><strong><a href="https://github.com/jivoi/awesome-osint" target="_blank" rel="noopener noreferrer">Awesome OSINT</a></strong></li>
     <li><strong><a href="https://github.com/sherlock-project/sherlock" target="_blank" rel="noopener noreferrer">Sherlock Project</a></strong></li>
     <li><a href="https://breachdirectory.org" target="_blank" rel="noopener noreferrer">Breach Directory</a></li>
@@ -458,6 +517,7 @@ geojson { "type": "FeatureCollection", "features": [ { "type": "Feature","id": 1
 
   <h5>GEOINT and Mapping Tools for Forensic Investigators</h5>
   <ul>
+  <li><a href="https://github.com/tmcw/awesome-geojson" target="_blank" rel="noopener noreferrer">Awesome Geojson</a></li>
   <li><a href="https://usgif.org" target="_blank" rel="noopener noreferrer">United States Geospatial Intelligence Foundation (USGIF)</a></li>
   <li><a href="https://www.nga.mil" target="_blank" rel="noopener noreferrer">National Geospatial-Intelligence Agency (NGA)</a></li>
   <li><a href="https://www.gislounge.com" target="_blank" rel="noopener noreferrer">GIS Lounge</a></li>
