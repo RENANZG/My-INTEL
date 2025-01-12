@@ -574,6 +574,7 @@
   <li><a href="https://www.mandiant.com/resources" target="_blank" rel="noopener noreferrer">Mandiant Resources</a></li>
   <li><a href="https://www.ncsc.gov.uk" target="_blank" rel="noopener noreferrer">National Cyber Security Centre (NCSC)</a></li>
   <li><a href="https://www.tracelabs.org" target="_blank" rel="noopener noreferrer">Trace Labs</a></li>
+  <li><a href="https://www.hudsonrock.com/threat-intelligence-cybercrime-tools" target="_blank" rel="noopener noreferrer">Hudson Rock Infostealer Intelligence Toolkit</a></li>
   <li><a href="https://maltego.com" target="_blank" rel="noopener noreferrer">Maltego</a></li>
   <li><a href="https://www.secjuice.com" target="_blank" rel="noopener noreferrer">SecJuice</a></li>
   <li><a href="https://os2int.com/toolbox/" target="_blank" rel="noopener noreferrer">OS2INT Toolbox</a></li>
