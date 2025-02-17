@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <script src="https://api.mapbox.com/mapbox-gl-js/v2.16.0/mapbox-gl.js"></script>
+  <link href="https://api.mapbox.com/mapbox-gl-js/v2.16.0/mapbox-gl.css" rel="stylesheet" />
+  <script src="https://unpkg.com/@turf/turf@6.5.0/turf.min.js"></script>
+  <script src="https://unpkg.com/topojson-client@3"></script>
+</head>
+<body>
+  <div id="map" style="height: 500px;"></div>
+  <script>
+    mapboxgl.accessToken = 'your_mapbox_access_token';
+
+    // Initialize the Mapbox map
+    const map = new mapboxgl.Map({
+      container: 'map',
+      style: 'mapbox://styles/mapbox/streets-v11',
+      center: [0, 0],
+      zoom: 2
+    });
+
+    // Load and display TopoJSON
+    map.on('load', () => {
+      fetch('path/to/your-file.topojson')
+        .then(response => response.json())
+        .then((topojsonData) => {
+          // Convert TopoJSON to GeoJSON
+          const geojsonData = topojson.feature(topojsonData, topojsonData.objects.hand);
+
+          // Add the GeoJSON data as a source
+          map.addSource('hand', {
+            type: 'geojson',
+            data: geojsonData
+          });
+
+          // Add a layer to display the GeoJSON
+          map.addLayer({
+            id: 'hand-layer',
+            type: 'fill',
+            source: 'hand',
+            paint: {
+              'fill-color': '#FF5733', // Fill color
+              'fill-opacity': 0.5 // Transparency
+            }
+          });
+
+          // Calculate bounds using Turf.js
+          const bounds = turf.bbox(geojsonData);
+
+          // Fit the map to the bounds
+          map.fitBounds(bounds, { padding: 20 });
+        })
+        .catch((err) => console.error('Error loading TopoJSON:', err));
+    });
+  </script>
+</body>
+</html>
